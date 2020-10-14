@@ -37,5 +37,4 @@ __Conclusion final__
 
 Me pareció un trabajo interesante, aunque me jugo en contra el desconocimiento del lenguaje. Luego de la implementación de la profesora, quedaron mucho más claro tanto los conceptos como la implementacion de las funciones y los semáforos. 
 
-
-![](https://github.com/aagusvidal/Trabajo-Threads-y-Semaforos/blob/main/SEMAFOROS.)
+![](/SEMAFOROS.png)
