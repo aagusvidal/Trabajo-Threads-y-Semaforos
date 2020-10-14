@@ -1,0 +1,8 @@
+cortar:ajo,cebolla,perejil
+mezclar:carne,ajo,cebolla,perejil
+salar:mezcla
+armar:mezcla
+cocinar:medallones
+hornear:pan
+cortarExtras:lechuga,tomate
+armarHamburguesa:hamburguesa,lechuga,tomate,pan
