@@ -20,4 +20,8 @@ __Con respecto a  los semaforos:__
 No tuve conflictos para  la inicializacion  de los semáforos, ya que lo implemente  luego de ver los ejemplos.   Para cada hilo implemente 7 semáforos  individuales,  uno por cada acción (Sin contar a la función cortar) , y también  3 semáforos  globales,  simulando  la  función  de los mutex, para las acciones que requiere compartir equipamiento . 
 En las funciones en las que hay secciones críticas ,  es decir  , aquellos elementos que no pueden  ser usados al mismo tiempo (salero,  cocina, horno) , con el wait y el   post  , bloqueo y desbloqueo aquellos elementos (A través de sus semáforos ),   para que no   se puedan realizar al unisono por los equipos . Por lo que los otros equipos se quedan esperando su liberación.
 
+__Funciones:__
+
+También,  en la funcion ejecutarreceta() , cada hilo crea 8 hilos nuevos, que se van a  dirigir a cada paso de la receta ( Cada funcion representa un paso) .  
+
 
