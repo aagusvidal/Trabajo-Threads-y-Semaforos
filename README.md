@@ -16,4 +16,7 @@ A la vez,  en cada linea,  luego  de separar  el primer string  (la accion)  , l
 
 
 __Con respecto a  los semaforos:__
+
 No tuve conflictos para  la inicializacion  de los semáforos, ya que lo implemente  luego de ver los ejemplos.   Para cada hilo implemente 7 semáforos  individuales,  uno por cada acción (Sin contar a la función cortar) , y también  3 semáforos  globales,  simulando  la  función  de los mutex.
+
+
