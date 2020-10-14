@@ -27,3 +27,6 @@ Después de buscar información sobre cuál podría ser el problema, lo arregle,
 Esto pude solucionarlo limpiando en cada pasada del for con  strcpy(line3,"") la cadena.
 Otro cambio sobre las funciones fue en  armarHamburguesa() . Como agregado a esta funcion tuve que crear una variable compartida  de tipo int para saber cuando un equipo gano, debido a que quise hacer una funcion llamada ganador() y un semaforo ganador , en la que sólo entraría el ganador, pero  al entrar y bloquear el semaforo, el resto  de los hilos se quedaba esperando a que se habilite el semaforo  y el programa se quedaba corriendo . Esta variable esta inicializada en cero, en donde declaro los semaforos globales, y cada vez que un equipo entra a la funcion armarHamburguesa(), se incrementa en uno. 
 Dentro de esta función , comparo si esa variable ya incrementada es igual a 1, si esto sucede, se abre el archivo que documenta  la competencia  y escribe en él "¡¡¡¡ATENCION A TODOSSSS!!!! El equipo x termino su hamburguesa,¡Es el ganador!".  Si la variable es igual a dos, escribe "El equipo x termino su hamburguesa, ¡Salio segundo!", y similar con el equipo que sale tercero. Luego cierra el archivo para guardar los cambios .
+__Salida de la competencia:__
+
+Un problema surgido en la salida de la competencia 
