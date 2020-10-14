@@ -22,6 +22,6 @@ En las funciones en las que hay secciones críticas ,  es decir  , aquellos elem
 
 __Funciones:__
 
-También,  en la funcion ejecutarreceta() , cada hilo crea 8 hilos nuevos, que se van a  dirigir a cada paso de la receta ( Cada funcion representa un paso) .Para las demás funciones  seguí  la estructura brindada por Noelia .  En  la  funcion imprimir tuve que realizar  modificaciones .  
+También,  en la funcion ejecutarreceta() , cada hilo crea 8 hilos nuevos, que se van a  dirigir a cada paso de la receta ( Cada funcion representa un paso) .Para las demás funciones  seguí  la estructura brindada por Noelia .  En  la  funcion imprimir tuve que realizar  modificaciones . Dentro  de la función  imprimirAccion()  me surgió un problema a la hora de guardar  las cadenas en el archivo , ocurría una violación de segmento, debido a que utilizaba una sola cadena para almacenar todo el contenido.   
 
 
