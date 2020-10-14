@@ -9,4 +9,4 @@ _El lenguaje de programación C fue el principal obstáculo que se me presento p
 
 __Con respecto a la lectura del archivo:__
 
-_En caso de  fjsasbfjs lallala lala
+En un  principio, comence utilizando la función getLine() para leer archivos. Sin embargo, luego de lo explicado en clase sobre la lectura y el uso de delimitadores, retome la busqueda de informacion, y utilice  fgets() en su lugar, junto con el strtok. 
