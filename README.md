@@ -8,3 +8,5 @@ _El lenguaje de programación C fue el principal obstáculo que se me presento p
 #### Implementación, dificultades y resoluciones propuestas
 
 __Con respecto a la lectura del archivo:__
+
+En un principio, utilice la funcion  getLine() para leer los archivos.  Sin embargo, luego de lo explicado 
