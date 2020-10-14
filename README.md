@@ -9,4 +9,4 @@ _El lenguaje de programación C fue el principal obstáculo que se me presento p
 
 __Con respecto a la lectura del archivo:__
 
-En un principio, utilice la funcion  getLine() para leer los archivos.  Sin embargo, luego de lo explicado 
+_En caso de  fjsasbfjs lallala lala
