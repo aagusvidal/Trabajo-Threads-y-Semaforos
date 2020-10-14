@@ -10,3 +10,4 @@ _El lenguaje de programación C fue el principal obstáculo que se me presento p
 __Con respecto a la lectura del archivo:__
 
 En un  principio, comence utilizando la función getLine() para leer archivos. Sin embargo, luego de lo explicado en clase sobre la lectura y el uso de delimitadores, retome la busqueda de informacion, y utilice  fgets() en su lugar, junto con el strtok. 
+Además, no comprendía como leer linea por linea el archivo, luego la profesora me asesoro sobre el uso del for, al probarlo, me recorria correctamente el archivo al poner la cantidad de lineas que poseia. Para implementar  el strtok tuve que mirar varios videos y sitios web para comprender su funcionamiento.
