@@ -23,5 +23,6 @@ En las funciones en las que hay secciones críticas ,  es decir  , aquellos elem
 __Funciones:__
 
 También,  en la funcion ejecutarreceta() , cada hilo crea 8 hilos nuevos, que se van a  dirigir a cada paso de la receta ( Cada funcion representa un paso) .Para las demás funciones  seguí  la estructura brindada por Noelia .  En  la  funcion imprimir tuve que realizar  modificaciones . Dentro  de la función  imprimirAccion()  me surgió un problema a la hora de guardar  las cadenas en el archivo , ocurría una violación de segmento, debido a que utilizaba una sola cadena para almacenar todo el contenido.   
+Después de buscar información sobre cuál podría ser el problema, lo arregle, colocando una cadena  para cada for  y  una para  separar  datos  (line1,line2,line3). En esta función, con la funcion sprintf() coloco el string del numero del equipo en el char equipo. Luego, con strcat concateno varios strings a la cadena y con sputs escribo todo el contenido de la cadena en el archivo de la competencia.  Para los ingredientes, me surgió un problema. Al revisar el archivo de salida , en cada pasada me imprimia  cada ingrediente, pero iba repitiendo lo que ya había impreso anteriormente .  
 
 
