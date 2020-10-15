@@ -37,3 +37,4 @@ __Pseudocódigo__
 Leyendo el ejercicio del trabajo, sabemos que las acciones a realizar son: cortar,mezclar,salar,armar medallones,  cocinar las hamburguesas,  hornear los panes, y cortar los extras. A raiz de esto, se crea una funcion para cada accion, y imprimirAcciones para ir subiendo en el archivo las acciones. 
 Como cortar extras y hornear pan son acciones que no dependen de otras funciones, las deje al azar, para que entren los equipos cuando tengan tiempo, y ambas mandan una señal a  armar hamburguesa, junto con la funcion cocinar hamburguesas, ya que una vez que esten cocinadas las hamburguesas, horneado el pan y  cortados los extras,se pueda preparar la hamburguesa.
 
+![] (/SEMAFOROS UTILIZADOS.png)
