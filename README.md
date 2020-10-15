@@ -47,3 +47,4 @@ Los semaforos utilizados y la variacion de sus valores en cada funcion es la sig
 
 
 ![](/Semaforos.png)
+
