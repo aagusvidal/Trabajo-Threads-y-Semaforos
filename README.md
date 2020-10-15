@@ -46,4 +46,4 @@ Y la funcion armarHamburguesas depende tanto de cortar Extras, como de hornear p
 Los semaforos utilizados y la variacion de sus valores en cada funcion es la siguiente:
 
 
-![] (/SEMAFOROS.png)
+![](/Semaforos.png)
