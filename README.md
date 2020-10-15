@@ -17,7 +17,7 @@ A la vez,  en cada linea,  luego  de separar  el primer string  (la accion)  , l
 
 __Con respecto a  los semaforos:__
 
-No tuve conflictos para  la inicializacion  de los semáforos, ya que lo implemente  luego de ver los ejemplos.   Para cada hilo implemente 7 semáforos  individuales,  uno por cada acción (Sin contar a la función cortar) , y también  3 semáforos  globales,  simulando  la  función  de los mutex, para las acciones que requiere compartir equipamiento . 
+No tuve conflictos para  la inicializacion  de los semáforos, ya que lo implemente  luego de ver los ejemplos.   Para cada hilo implemente 8 semaforos individuales,  y 3 semaforos globales, para simular  la accion de los mutex, para las acciones que requieren compartir equipamiento.
 En las funciones en las que hay secciones críticas ,  es decir  , aquellos elementos que no pueden  ser usados al mismo tiempo (salero,  cocina, horno) , con el wait y el   post  , bloqueo y desbloqueo aquellos elementos (A través de sus semáforos ),   para que no   se puedan realizar al unisono por los equipos . Por lo que los otros equipos se quedan esperando su liberación.
 
 __Funciones:__
@@ -35,4 +35,5 @@ Finalmente, como solución final ,copie esas lineas en el main, tanto la de borr
 
 __Pseudocódigo__
 Leyendo el ejercicio del trabajo, sabemos que las acciones a realizar son: cortar,mezclar,salar,armar medallones,  cocinar las hamburguesas,  hornear los panes, y cortar los extras. A raiz de esto, se crea una funcion para cada accion, y imprimirAcciones para ir subiendo en el archivo las acciones. 
-Para usar correctamente las funciones, utilice un semaforo para cada  accion, y  3 semaforos  globales para utilizar los elementos compartidos (salero, cocina,  horno) .  
+Como cortar extras y hornear pan son acciones que no dependen de otras funciones, las deje al azar, para que entren los equipos cuando tengan tiempo, y ambas mandan una señal a  armar hamburguesa, junto con la funcion cocinar hamburguesas, ya que una vez que esten cocinadas las hamburguesas, horneado el pan y  cortados los extras,se pueda preparar la hamburguesa.
+
